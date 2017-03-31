@@ -1,0 +1,56 @@
+/*media settings for screen resolution < 992px*/
+
+@media (max-width:992px){
+	#image2 {display:none;}	
+	#image1 {
+		display: block;
+		height: 50%;
+		width: 100%;}
+
+	section {text-align: center;}
+	h2 {font-size: 1.2em;}
+}
+
+/*media settings for screen resolution between 992px and 1170px */
+
+@media (min-width:992px) and (max-width:1169px){
+	#image2 {
+		display: block;
+		width: 100%;
+		height: 70%;
+		position: relative;
+	}
+	
+	section {
+		top: 10%;
+		right: 5%;
+		position: absolute;
+		color: #fff;
+		z-index: 1;
+	}
+	
+	h2 {font-size: 1.2em;}
+	
+}
+
+/*media settings for screen resolution > 1170px */
+
+@media (min-width:1170px){
+	#image2 {display:none;}
+	#image1 {
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+	
+	section {
+		top:50%;
+		left:5%;	
+		position: absolute;
+		color: #fff;
+		z-index: 1;
+	}
+	
+	h1 {font-size: 2.0em;}
+	h2 {font-size: 1.2em;}
+}

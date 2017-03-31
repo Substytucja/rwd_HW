@@ -1,0 +1,8 @@
+* {box-sizing: border-box;}
+
+/*Main text settings*/
+h1, h2 {
+	text-transform: uppercase;
+	font-family: verdana;}
+
+#image1 {display: none;}
